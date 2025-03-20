@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(237, 208, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+.container {
+    width: 450px; /* Increased width */
+    height: 500px; /* Increased height to make it rectangular */
+    padding: 20px;
+    border: 2px solid #120109;
+    border-radius: 10px;
+    box-shadow: rgba(222, 11, 191, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(230, 137, 208);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content inside */
+    align-items: center;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.mood-selector {
+    margin-bottom: 20px;
+}
+
+.mood-button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mood-button:hover {
+    background-color: #da82a3;
+}
+
+.mood-history {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#mood-list {
+    list-style: none;
+    padding: 0;
+}
+
+#mood-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+}

@@ -24,7 +24,7 @@ function addMoodToHistory(mood, storedDate = null, storedTime = null, saveToStor
 
     moodItem.innerHTML = `<span>${mood}</span> <span>${date} ${time}</span>`;
 
-    // Create delete button
+    
     const deleteBtn = document.createElement('button');
     deleteBtn.textContent = "❌";
     deleteBtn.style.marginLeft = "10px";
@@ -38,7 +38,7 @@ function addMoodToHistory(mood, storedDate = null, storedTime = null, saveToStor
     moodItem.appendChild(deleteBtn);
     moodLists.appendChild(moodItem);
 
-    // Save to LocalStorage if it's a new mood entry
+    // Save to LocalStorage 
     if (saveToStorage) {
         saveMoodToLocalStorage(mood, date, time);
     }

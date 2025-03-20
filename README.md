@@ -32,8 +32,7 @@ Mood Tracker a basic web application that helps users to keep a track of their m
 * After mood gets added to the Mood History it can be deleted from the history by clicking the ❌ button.
 
 ## Deployment
-You can get the demo of the site by clicking on this link -https://mood-tracker-eight- 
-sigma.vercel.app/
+You can get the demo of the site by clicking on this link -https://mood-tracker-eight-sigma.vercel.app/
 
 ## Installation
 * Clone the repository.
